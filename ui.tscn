@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://6nfbdduxun1r"]
 
-[ext_resource type="Script" path="res://addons/addon_refresher/ui.gd" id="1_nfbyp"]
-[ext_resource type="Texture2D" uid="uid://bnvjspop4b0kh" path="res://addons/addon_refresher/icons/refresh-white.svg" id="2_bywaf"]
-[ext_resource type="Texture2D" uid="uid://ij1xo8lso2vb" path="res://addons/addon_refresher/icons/arrow-down-white.svg" id="2_jg5sd"]
+[ext_resource type="Script" path="res://addons/plugin-refresher/ui.gd" id="1_qweux"]
+[ext_resource type="Texture2D" uid="uid://bnvjspop4b0kh" path="res://addons/plugin-refresher/icons/refresh-white.svg" id="2_bywaf"]
+[ext_resource type="Texture2D" uid="uid://ij1xo8lso2vb" path="res://addons/plugin-refresher/icons/arrow-down-white.svg" id="2_jg5sd"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -11,7 +11,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_nfbyp")
+script = ExtResource("1_qweux")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 layout_mode = 1

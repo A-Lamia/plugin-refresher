@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnvjspop4b0kh"
-path="res://.godot/imported/refresh-white.svg-4147ea966cac6c17c78c733e302fcc86.ctex"
+path="res://.godot/imported/refresh-white.svg-a4914bf8b018f7e359637e068038ecb7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/addon_refresher/icons/refresh-white.svg"
-dest_files=["res://.godot/imported/refresh-white.svg-4147ea966cac6c17c78c733e302fcc86.ctex"]
+source_file="res://addons/plugin-refresher/icons/refresh-white.svg"
+dest_files=["res://.godot/imported/refresh-white.svg-a4914bf8b018f7e359637e068038ecb7.ctex"]
 
 [params]
 
@@ -33,3 +33,5 @@ process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
 svg/scale=0.7
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false
