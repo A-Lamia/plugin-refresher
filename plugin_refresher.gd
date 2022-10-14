@@ -1,7 +1,7 @@
 @tool
 extends EditorPlugin
 
-const DockPanel = preload("res://addons/addon_refresher/ui.tscn")
+const DockPanel = preload("res://addons/plugin-refresher/ui.tscn")
 var dock_panel
 
 func _enter_tree():

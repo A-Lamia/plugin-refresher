@@ -24,8 +24,9 @@ func populate_popup_menu(popup) -> void:
 		var file_name = dir.get_next();
 		
 		while file_name != "":
-			if dir.current_is_dir() and file_name != "addon_refresher":
+			if dir.current_is_dir() and file_name != "plugin-refresher":
 				popup.add_item(file_name)
+				print(file_name)
 			file_name = dir.get_next();
 		dir.list_dir_end();
 
